@@ -10,12 +10,12 @@
 #include <QList>
 #include <QDateTime>
 
-#include "libmastodon_global.h"
+#include "qmastodon_global.h"
 #include "mastodonaccount.h"
 #include "mastodonstatus.h"
 
 
-class LIBMASTODONSHARED_EXPORT mastodon : public QObject
+class QMASTODONSHARED_EXPORT mastodon : public QObject
 {
     Q_OBJECT
     QNetworkAccessManager *manager;
